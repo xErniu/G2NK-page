@@ -1,0 +1,94 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url('bcg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background: #444;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background: #666;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #444;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#poradniki {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
