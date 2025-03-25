@@ -1,0 +1,1 @@
+sitemap: https://xerniu.github.io/G2NK-page/sitemap.xml
